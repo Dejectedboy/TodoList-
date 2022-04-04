@@ -10,4 +10,3 @@
     第二步
     $ npm run serve    //运行
 
-## 已自动打包所需要的model
