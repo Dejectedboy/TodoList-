@@ -4,7 +4,7 @@
       <input type="checkbox" :checked="isAll" @change="checkAll" />
     </label>
     <span>
-      <span>待完成{{ doneTotal }}</span> / 已完成{{ total }}
+      <span>待完成{{ doneTotal }}</span> / 项目总数{{ total }}
     </span>
     <button class="btn btn-danger" @click="cleartodo">清除已完成的任务</button>
   </div>
